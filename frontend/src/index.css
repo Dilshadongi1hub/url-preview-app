@@ -1,0 +1,458 @@
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+
+    background:#f4f7fb;
+
+    color:#1f2937;
+
+}
+
+/* ==========================
+        NAVBAR
+========================== */
+
+.navbar{
+
+    width:100%;
+
+    height:70px;
+
+    padding:0 60px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:white;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+}
+
+.logo{
+
+    font-size:26px;
+
+    font-weight:700;
+
+    color:#2563eb;
+
+}
+
+.logout-btn{
+
+    padding:10px 22px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#ef4444;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.logout-btn:hover{
+
+    background:#dc2626;
+
+}
+
+
+/* ==========================
+        LOGIN / SIGNUP
+========================== */
+
+.container{
+
+    width:100%;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#eef4ff;
+
+}
+
+.form{
+
+    width:400px;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:14px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.form h2{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+    color:#2563eb;
+
+}
+
+.form input{
+
+    width:100%;
+
+    padding:14px;
+
+    margin:12px 0;
+
+    border:1px solid #d1d5db;
+
+    border-radius:8px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.form input:focus{
+
+    border-color:#2563eb;
+
+}
+
+.form button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2563eb;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.form button:hover{
+
+    background:#1d4ed8;
+
+}
+
+.form p{
+
+    margin-top:18px;
+
+    text-align:center;
+
+}
+
+.form a{
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+    margin-left:6px;
+
+}
+
+/* ==========================
+        DASHBOARD
+========================== */
+
+.dashboard{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:40px auto;
+
+}
+
+.dashboard h1{
+
+    text-align:center;
+
+    font-size:36px;
+
+    color:#1f2937;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#6b7280;
+
+    margin-top:10px;
+
+    margin-bottom:35px;
+
+}
+
+
+/* ==========================
+        URL FORM
+========================== */
+
+.url-form{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-bottom:40px;
+
+}
+
+.url-form input{
+
+    flex:1;
+
+    padding:16px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+.url-form input:focus{
+
+    border-color:#2563eb;
+
+}
+
+.url-form button{
+
+    width:220px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.url-form button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+/* ==========================
+      PREVIEW GRID
+========================== */
+
+.preview-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+
+    gap:25px;
+
+}
+
+
+/* ==========================
+      PREVIEW CARD
+========================== */
+
+.preview-card{
+
+    background:white;
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.preview-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.preview-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+    background:#f3f4f6;
+
+}
+
+.preview-card p{
+
+    padding:18px;
+
+    font-size:15px;
+
+    word-break:break-word;
+
+}
+
+.preview-card button{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    background:#ef4444;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.preview-card button:hover{
+
+    background:#dc2626;
+
+}
+
+
+/* ==========================
+      EMPTY STATE
+========================== */
+
+.empty-state{
+
+    width:100%;
+
+    text-align:center;
+
+    padding:60px;
+
+    background:white;
+
+    border-radius:12px;
+
+    color:#6b7280;
+
+    font-size:18px;
+
+}
+
+
+/* ==========================
+      RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+    .navbar{
+
+        padding:0 20px;
+
+    }
+
+    .logo{
+
+        font-size:22px;
+
+    }
+
+    .dashboard{
+
+        width:95%;
+
+    }
+
+    .dashboard h1{
+
+        font-size:28px;
+
+    }
+
+    .url-form{
+
+        flex-direction:column;
+
+    }
+
+    .url-form button{
+
+        width:100%;
+
+    }
+
+    .form{
+
+        width:95%;
+
+    }
+
+}
+
+
