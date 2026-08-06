@@ -3,7 +3,13 @@
 A full-stack URL Preview Application built using **React.js**, **FastAPI**, **SQLite**, and **JWT Authentication**. This application allows users to create an account, log in securely, generate website preview images from URLs, view saved previews, and delete them.
 
 ---
+## Live Demo
 
+- Frontend: https://url-preview-frontend.onrender.com
+- Backend API: https://url-preview-backend.onrender.com
+- API Documentation: https://url-preview-backend.onrender.com/docs
+
+  
 ## Features
 
 - User Signup
