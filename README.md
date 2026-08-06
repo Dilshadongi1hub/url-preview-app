@@ -165,16 +165,6 @@ http://localhost:5173
 
 ---
 
-## Future Improvements
-
-- User-specific Preview History
-- Dark Mode
-- Search Functionality
-- Edit Preview
-- Cloud Database
-- Docker Support
-
----
 
 ## Author
 
